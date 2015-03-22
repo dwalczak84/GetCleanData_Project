@@ -37,16 +37,19 @@ The data
 'test/y_test.txt': Test labels.
 
 
-The following files are available for the train and test data. Their descriptions are equivalent.
+<b>The following files are available for the train and test data. Their descriptions are equivalent.</b>
 
 
 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+
 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis.
+
 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration.
+
 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
 
 
-Transformation details
+<b>Transformation details</b>
 
 There are 5 parts:
 
@@ -62,7 +65,7 @@ Creation of a second, independent tidy data set with the average of each variabl
 
 
 
-How  run_analysis.R  implements the above steps:
+<b>How  run_analysis.R  implements the above steps:</b>
 
 Libraries reshapre2  and  data.table are required.
 
